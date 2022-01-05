@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  font-family: "Voltaire", Sans-serif;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.app-section {
+  background: url('https://xtreme-justice.com/wp-content/uploads/2021/10/Group-6-1.png') no-repeat fixed center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.title{
+  margin-bottom: 10px;
+}
+
+.btn-link {
+  background: url('https://xtreme-justice.com/wp-content/uploads/2021/10/btn312.png') no-repeat;
+  text-align: center;
+  width: 312px;
+  height: 78px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-link > p{
+  font-size: 28px;
+  margin-top: 18px;
+}
+
+.modal{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  
+}
+
+.modal-body{
+  min-width: 500px;
+  padding: 15px;
+  background: #231A31;
+  color: #fff;
+  border-radius: 8px;
+  border: solid 1px #fff;
+  text-align: center;
+  position: relative;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.modal-body > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  min-width: 500px;
+}
+
+.close{
+  text-align: right;
+    font-size: 17px;
+    padding: 6px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.title{
+  padding: 14px;
+}
+
+.form{
+  display: grid;
+    padding: 14px;
+    background-color: #00000080;
+    border-radius: 20px;
+}
+
+.input{
+  background-color: #192141;
+    border: solid 1px #BB9A55;
+    border-radius: 4px;
+    width: auto;
+    outline: none;
+    color: #eee;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.btn_submit{
+  background-image: url('https://xtreme-justice.com/wp-content/uploads/2021/10/button188.png');
+  background-size: cover;
+  text-align: center;
+  width: 188px;
+  height: 50px;
+  background-color: #FFFFFF00;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Voltaire", Sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
